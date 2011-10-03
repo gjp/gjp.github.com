@@ -1,0 +1,38 @@
+h1 {
+  font-size: 20px;
+  margin: 1em 0 1em -.5em;
+}
+
+#contact {
+  float: right;
+  margin-top: .25em;
+  display: none;
+}
+
+#content-wrapper ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+#content-wrapper #skillsets {
+  list-style-type: none;
+}
+
+#content-wrapper .skillset {
+  display: inline-block;
+  text-align: right;
+  width: 80px;
+  margin-right: 1em;
+}
+
+#content-wrapper li {
+  margin: .3em 0;
+}
+
+#content-wrapper h2 {
+  margin: 1em 0 .5em -.5em;
+  clear: left;
+}
+#content-wrapper h3 {
+  margin-top: 1.5em;
+}

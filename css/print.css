@@ -1,0 +1,11 @@
+#content-wrapper {
+  margin-left: 80px;
+}
+
+#sidebar {
+  display: none;
+}
+
+#contact {
+  display: block;
+}

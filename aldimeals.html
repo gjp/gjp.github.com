@@ -1,0 +1,82 @@
+---
+layout: default
+title: Gregory Parkhurst - Project - ALDImeals.com
+---
+
+  <h1>Project: ALDImeals.com</h1>
+  <p><em>This site was launched December 2008 and was decommissioned at the end of a multi-year
+    promotion, at which point it had over 100k registered users. A 
+    <a href="http://www.youtube.com/watch?v=UTXGitPvjxI">video review</a>,
+    some
+    <a href= "http://www.blogsmonroe.com/budget/2010/05/aldi-meal-planner-a-recipe-and-shopping-list/">nice press</a>,
+    and snapshots from the
+    <a href="http://web.archive.org/web/20101204231920/http://www.aldimeals.com/">Internet Archive</a>
+    may still be found online.</em>
+  </p>
+  <p>
+    The project posed some interesting challenges,
+    as the codebase I'd been working with until this point was a Frankenstein's
+    monster consisting of proxied Rails apps bolted on to a legacy CGI system
+    consisting of dozens of Perl scripts and approximately 8k lines of C code.
+
+    In 2008.
+
+    Also, the client requested a drag-and-drop UI at a time before jQueryUI was
+    mature, and the majority of ALDI's customers still used IE6.
+  </p>
+  <p>I was the dev team, the database guy, the sysadmin, and I'd even built the
+    box the site was intended to run on, so I made an executive decision to
+    break with the past and port everything to Rails.
+  </p>
+  <div class="screenshot">
+    <a href="/images/folio/aldi-comp.jpg" class="top_up">
+      <img class="thumb" src="/images/folio/aldi-comp_thumb.png" alt="ALDImeals mockup"/>
+    </a>
+    <p>
+      No direct interaction was allowed with the client &ndash; I worked with
+      two different marketing companies.
+      The core design was provided by a single Photoshop mockup, seen here.
+    </p>
+    <p>
+      Near pixel-accurate layout was required.
+      Fixed-sized boxes enclosed dynamic content of varying length.
+      Nothing on the pages was allowed to flow. Given the constraints,
+      tables would have been the easy route here (perhaps the sane one).
+      But I <em>really</em> did not want to use tables.
+    </p>
+  </div>
+  <div class="screenshot">
+    <a href="/images/folio/aldi-homepage.jpg" class="top_up">
+      <img class="thumb" src="/images/folio/aldi-homepage_thumb.png" alt="ALDImeals homepage"/>
+    </a>
+    <p>
+      I adjusted colors to reflect the palette used on the
+      main ALDI US site and padded dynamic content to help avoid
+      layout breakage. The resulting design (captured from the production
+      site) was actually quite faithful to the mockup. And no tables!
+    </p>
+    <p>
+      Various fragments of the page were cached in memcached with differing
+      timeouts ranging from 5 minutes to an hour, allowing for low overhead on
+      a fairly busy page containing multiple dynamic elements and rotating
+      banners.
+    </p>
+  </div>
+  <div class="screenshot">
+    <a href="/images/folio/aldi-calendar-drag.png" class="top_up">
+      <img class="thumb" src="/images/folio/aldi-calendar-drag_thumb.png" alt="ALDImeals calendar" />
+    </a>
+    <p>
+      A core feature of the site was the drag-and-drop Meal Planner.
+      The final design used the entire site width to include three different
+      elements: A tabbed cookbook, including both ALDI- and user-selected
+      recipes, a calendar spanning one week, and a concise shopping list. Recipe
+      titles could be dragged from the cookbook to either the calendar or
+      shopping list, and from the calendar to the shopping list.
+    </p>
+  </div>
+  <p style="clear: left">
+    The guts of the application
+    have since been ported to several other sites based on the Radiant CMS as
+    well as a web service which is fronted by a .NET-based e-commerce package.
+  </p>

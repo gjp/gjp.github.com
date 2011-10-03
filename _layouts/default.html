@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <title>{{ page.title }}</title>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link type="text/css" href="/css/reset.css" rel="stylesheet">
+  <link type="text/css" href="/css/site.css" rel="stylesheet">
+  <script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+</head>
+
+<body>
+  <div id="content-wrapper">
+    {{ content }}
+  </div>
+  <div id="sidebar">
+    {% include sidebar.html %}
+  </div>
+</body>
+</html>

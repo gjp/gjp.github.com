@@ -1,0 +1,42 @@
+#intro {
+  font-size: 100%;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #777;
+  margin-bottom: 3em;
+}
+
+#alice {
+  position: relative;
+}
+
+#alice #quote {
+  position: relative;
+  font-size: 110%;
+  color: #777;
+  z-index: -100;
+}
+
+#alice #mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flip {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+}
+
+.gradient-bottom-white-alpha {
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 100%); 
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.dark {
+  color: #000;
+}
