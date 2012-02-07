@@ -5,21 +5,24 @@ title: Gregory Parkhurst - Home
 
 # Hi.
 
-I'm Gregory Parkhurst. I've been doing various things with and to software
-for a long time: C coding (back when the dinosaurs ruled the earth),
-MySQL and Oracle database administration and tuning, and lately Ruby & Rails development.
-I've met many people I'd call better programmers, but not many more experienced generalists.
+I'm Gregory Parkhurst. I've been doing various things with software
+for a long time, as a consultant more often than not:
+C coding (back before the .com dinosaurs ruled the earth),
+MySQL and Oracle database administration and tuning,
+and Ruby & Rails development.
+
+I've met many people I'd call better programmers, but not so many experienced generalists.
 
 Last year I reached a turning point: I decided to become a contributor to open source rather than
-remaining primarily a tool-user within closed environments. This led me to
+remaining primarily a tool-user and bit wrangler within closed systems. This led me to
 [Mendicant University](/mendicant.html).
 
 # 2012:
 
 I'm looking for a new challenge and closer involvement with a team.
 If you're looking for the sort of person who can write and discuss code, tune a database,
-provision a server from the ground up, and have a lively and opinionated discussion
-about both UI design and the importance of pushing virtualization to the desktop,
+provision a server in his basement, and have a lively and opinionated discussion
+about both UI design and whether pushing bare-metal virtualization to the desktop makes sense,
 perhaps we should talk.
 
 ---
