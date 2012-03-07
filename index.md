@@ -19,11 +19,10 @@ remaining primarily a tool-user and bit wrangler within closed systems. This led
 
 # 2012:
 
-I'm looking for a new challenge and closer involvement with a team.
-If you're looking for the sort of person who can write and discuss code, tune a database,
-provision a server in his basement, and have a lively and opinionated discussion
-about both UI design and whether pushing bare-metal virtualization to the desktop makes sense,
-perhaps we should talk.
+Starting a contract-to-hire position with Sleepy Giant Entertainment on March 12,
+kicking off with a trip to their headquarters in Newport Beach, CA.
+
+Woohoo!
 
 ---
 
